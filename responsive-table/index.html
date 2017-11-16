@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>jQuery responsive-tables Plugin Demo</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+<link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    /* demo page styles */
+    
+    body {
+        font-family: sans-serif;
+         font-size: .938em;
+         
+    }
+                        .logo {
+    text-align: center;
+}
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color:#3498DB;
+        color:#fff;
+    }
+
+    caption {
+        margin: 1em 0 .7em 0;
+        text-align: left;
+        font-weight: bold;
+        font-size: 120%;
+        letter-spacing: .5px;
+        color: #fff;
+        
+    }
+
+    th {
+        text-align: left;
+        padding: .5em .5em;
+        font-weight: bold;
+        border-top: solid 3px #4FC2E5;
+        border-bottom: solid 1px #4FC2E5;
+    }
+
+    td {
+        padding: .5em .5em;
+        border-bottom: solid 1px #4FC2E5;
+    }
+    @media only screen and (max-width: 800px) {
+   
+    tbody tr:nth-child(odd){
+  background-color: #009688;
+  color: #fff;
+}
+}
+</style>
+<link rel="stylesheet" href="css/responsive-tables.min.css" type="text/css"> 
+</head>
+<body>    
+ <h2 class="logo">Responsive Tables Demo</h2>
+                    <div class="logo">
+    <a href="www.subraa.com" data-width=800 data-height=400 title="Subraa"><img src="subraa.png"></a></div>
+<table class="respond">
+    <caption>jQuery  Plugin Demo</caption>
+    <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>DOB</th>
+                <th>Age</th>
+                <th>Date</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lorum</td>
+                <td>ippusum 1</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                <tr>
+                <td>Lorum</td>
+                <td>ippusum 2</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                 <tr>
+                <td>Lorum</td>
+                <td>ippusum 3</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                <tr>
+                <td>Lorum</td>
+                <td>ippusum 4</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                 <tr>
+                <td>Lorum</td>
+                <td>ippusum 5</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                 <tr>
+                <td>Lorum</td>
+                <td>ippusum 6</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                 <tr>
+                <td>Lorum</td>
+                <td>ippusum 7</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                 <tr>
+                <td>Lorum</td>
+                <td>ippusum 8</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                 <tr>
+                <td>Lorum</td>
+                <td>ippusum 9</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+                 <tr>
+                <td>Lorum</td>
+                <td>ippusum 10</td>
+                <td>2008/11/28</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>9988776655</td>
+                <td>demo@gmail.com</td>
+            </tr>
+        </tbody>
+</table>       
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+<script src="js/tables.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+    $.responsiveTables();
+}); 
+</script>
+</body>
+</html>
