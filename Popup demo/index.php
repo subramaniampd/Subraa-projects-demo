@@ -75,7 +75,7 @@ body, html {
                 </div>
 <h1 style="text-align:center;">POPUP DEMO</h1>
 <div class="logo">
-	<a href="www.subraa.com" data-width=800 data-height=400 title="Subraa"><img src="images/subraa.png"></a></div>
+	<a href="https://www.subraa.com" data-width=800 data-height=400 title="Freelance Web Design Singapore"><img src="images/subraa.png"></a></div>
 <div class="popoup_div">
 
 <div class="single_pop">
