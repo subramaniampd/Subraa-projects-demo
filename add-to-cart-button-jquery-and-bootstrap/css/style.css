@@ -1,0 +1,27 @@
+.title {
+        margin-top: 60px;
+      }
+
+      .item {
+        background-color: #fff;
+      }
+
+      .item .title {
+        font-size: 14px;
+        padding: 8px 0;
+      }
+
+      .item .title span {
+        float: right;
+        font-weight: bold;
+      }
+
+      .item .description {
+        font-size: 12px;
+        height: 60px;
+      }
+
+      .item-clone {
+        position: fixed;
+        z-index: 9999;
+      }
